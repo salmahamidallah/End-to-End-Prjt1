@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Set your GitHub repo detailss
+# Set your GitHub repo details
 OWNER="salmahamidallah"
 REPO="End-to-End-Prjt1"
 
-# Set AWS credentials - ideally, these would be read from a secure source or environment variables
+# Sett AWS credentials - ideally, these would be read from a secure source or environment variabless
 AWS_ACCESS_KEY_ID=$(awk -F "=" '/aws_access_key_id/ {print $2}' ~/.aws/credentials | xargs)
 AWS_SECRET_ACCESS_KEY=$(awk -F "=" '/aws_secret_access_key/ {print $2}' ~/.aws/credentials | xargs)
 #ONN ajoute git remote add origin git@github.com:salmahamidallah/End-to-End-Prjt1.git avant d'executer ce script
