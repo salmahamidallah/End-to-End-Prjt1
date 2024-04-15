@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Set your GitHub repo details
+# Set your GitHub repo detailss
 OWNER="salmahamidallah"
 REPO="End-to-End-Prjt1"
 
