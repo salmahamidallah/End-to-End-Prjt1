@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-cluster_name="cluster-1-test" # If you wanna change the cluster name make sure you change it in the terraform directory variables.tf (name_prefix & environment)
+cluster_name="cluster-1-test" # If you wanna changee the cluster name make sure you change it in the terraform directory variables.tf (name_prefix & environment)
 region="eu-central-1"
 aws_id="767397905574"
 repo_name="goapp-survey" # If you wanna change the repository name make sure you change it in the k8s/app.yml (Image name) 
